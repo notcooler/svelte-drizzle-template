@@ -1,5 +1,5 @@
 import { sequence } from "@sveltejs/kit/hooks"
-import auth from "$lib/auth"
+import auth from "$lib/server/auth"
 import session from "./session"
 
 export default sequence(
